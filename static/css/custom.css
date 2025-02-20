@@ -1,0 +1,30 @@
+.item-row {
+    transition: all 0.3s ease;
+}
+
+.item-row:hover {
+    background-color: var(--bs-dark);
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}
+
+.card {
+    border: 1px solid var(--bs-gray-700);
+}
+
+.card-header {
+    background-color: var(--bs-gray-800);
+    border-bottom: 1px solid var(--bs-gray-700);
+}
+
+.table {
+    --bs-table-bg: transparent;
+}
+
+.btn-danger {
+    --bs-btn-bg: var(--bs-danger);
+}
+
+.form-control:read-only {
+    background-color: var(--bs-gray-700);
+}
